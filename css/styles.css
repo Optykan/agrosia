@@ -5,11 +5,10 @@ a:not(.close-reveal-modal){
 	 /*background: #F0F0F0;*/
 }
 a.navbar-brand{
-    color:#9d9d9d;
     transition: all 0.3s ease;
 }
 a.navbar-brand:hover{
-    color:white;
+    background-color:white;
     transition: all 0.3s ease;
 }
 .modal{
@@ -68,7 +67,7 @@ li>a:hover{
   border: 2px solid #efefef;
   border-radius: 7px;
   margin-top: 40px;
-    max-width:259px;
+  max-width:259px;
 }
 .item-wrapper:hover .img-wrapper img {
   -webkit-filter: grayscale(0);
@@ -221,6 +220,22 @@ li>a:hover{
     background-color:#b4ff91;
 	color:white;
     transition: all 0.5s;
+}
+.index-header{
+  background-color: rgb(176, 213, 139);
+}
+.navbar{
+  margin: 0;
+}
+.navbar-header{
+  height: 100%;
+}
+.navbar-header img{
+  margin: 7px 0;
+  height: 49px;
+}
+.navbar-nav{
+  height: 100%;
 }
 .heroheader{
     height:100%;
